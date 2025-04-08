@@ -1,2 +1,13 @@
 Primer commit
 Modificando el proyecto
+He creado un nuevo archivo y he realizado un pull request inicialmente.
+Este me ha dado un error de rebase
+He consultado a ChatGPT sobre el error y ha sido un conflicto entre el remoto y el local
+La solució es configurar como queremos hacer el rebase, 
+si con merge o con rebase aplicando uno de estos comandos desde la terminal
+
+Más seguro y sencillo
+git pull --no-rebase origin main //Fusiona el historial de los dos repositorios
+
+Más avanzado y limpio
+git pull --rebase oring main //Reescribe el historial de commit local
